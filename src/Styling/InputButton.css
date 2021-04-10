@@ -1,0 +1,56 @@
+.input-btn-container
+{
+    width: 150px;
+    height: 40px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.input-btn-container:hover
+{
+    /* background-color: #f2f2f2; */
+    background-color: var(--dropdown-color);
+    width: 100%;
+}
+.btn-input-right-inside-ib
+{
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 20px;
+    width: 160px;
+    box-shadow: none;
+    /* background-color: var(--background-color);
+    color: var(--text-color); */
+}
+
+.img-ib-inside
+{
+    margin-top: -5%;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    color: var(--text-color);
+
+}
+
+.text-ib-inside
+{
+    margin-right: 10px;
+    /* font-weight: bold; */
+    background-color: inherit;
+    color:var(--text-color);
+    width: 160px;
+ 
+
+}
+
+.dropdown-list-in-input-style
+{
+    margin-top: -50%;
+    background-color: var(--background-color);
+}
+
+.swap1dtxt
+{
+    color: var(--text-color);
+}

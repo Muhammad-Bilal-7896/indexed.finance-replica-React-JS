@@ -1,0 +1,82 @@
+.stakedetailsContainer {
+    margin-top: 5%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* The first row */
+
+.firstrowstackdetails {
+    border: 3px solid #666666;
+    min-height: 250px;
+    border-radius: 15px;
+}
+
+.earnedRewardsSD {
+    font-weight: bold;
+    margin-top: 2%;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.lastSDRowLeft {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.lastSDRowRight {
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-left: 5%;
+}
+
+.ndxSD {
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.sd-upper-block-btn {
+    border: 1px solid var(--text-color);
+    margin-left: 70px;
+    margin-top: 15px;
+    font-size: 17px;
+    color: var(--text-color);;
+}
+.sd-upper-block-btn:hover {
+    border: 1px solid var(--text-color);
+    background-color:var(--text-color);
+    color: var(--background-color)
+}
+
+/* The first row */
+
+/* second row here */
+
+.sdinput {
+    width: 60%;
+    margin-left: 5%;
+}
+
+@media all and (max-width:992px) {
+    .stakedetailsContainer {
+        width: 90%;
+    }
+    .sdinput {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .sd-upper-block-btn {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media all and (max-width:500px) {
+    .sdinput {
+        width: 100%;
+    }
+    
+}

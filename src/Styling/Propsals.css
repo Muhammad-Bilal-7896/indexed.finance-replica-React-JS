@@ -1,0 +1,56 @@
+.sub-active-text {
+    color: #928efc;
+    font-size: 15px;
+    padding-left: 2%;
+}
+
+.sub-progress-text-up {
+    color: var(--text-color);
+    font-size: 15px;
+    padding-left: 2%;
+}
+
+.sub-progress-text-down {
+    color: #808080;
+    font-size: 15px;
+    padding-left: 2%;
+}
+
+#propsal-table {
+    overflow-y: auto;
+    height: 100px;
+}
+
+/* Here is the styling for ProposalTableRows */
+
+.propsal-progress-container {
+    height: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.propsal-progress-SubcontainerUpper {
+    background-color: #00e79a;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.propsal-progress-SubcontainerLower {
+    background-color: grey;
+    width: 0%;
+    border-radius: 10px;
+}
+
+.btn-propsal-vote {
+    font-size: 18px;
+    color: var(--text-color);
+    border: 1px solid grey;
+}
+
+.btn-propsal-vote:hover {
+    background-color: var(--expandBtnHover);
+    border: 1px solid grey;
+    color: var(--text-color);
+}
+
+/* Here is the styling for ProposalTableRows */

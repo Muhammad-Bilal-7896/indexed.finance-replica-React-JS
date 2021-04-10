@@ -1,0 +1,538 @@
+.modalStyle
+{
+    background: var(--background-color);
+    border: 1px solid var(--connectIcon-grey-color);
+}
+
+.id-container {
+    width: 100%;
+    overflow-x: hidden;
+    border-top: 3px solid #666666;
+    border-bottom: 3px solid #666666;
+}
+
+.id-left-container {
+    padding-left: 5%;
+    min-height: 60px;
+    border-bottom: 3px solid #666666;
+}
+
+.id-left-heading {
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 2%;
+}
+
+.map-container-left {
+    min-height: 350px;
+    border-bottom: 3px solid #666666;
+}
+
+.idLeftToggleBtn {
+    color: var(--text-color);
+    background: none;
+    font-size: 19px;
+    width: 90px;
+    border: 1px solid var(--text-color);
+}
+
+.idLeftToggleBtn:hover {
+    color: white;
+    background-color: #666666;
+    font-weight: bold;
+}
+
+.idLeftToggleBtn2 {
+    color: var(--text-color);
+    background: none;
+    font-size: 19px;
+    width: 50px;
+    border: 1px solid var(--text-color);
+}
+
+.idLeftToggleBtn2:hover {
+    color: white;
+    background-color: #666666;
+    font-weight: bold;
+}
+
+.nav-link {
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
+
+#v-tabs-home-tab, #v-tabs-profile-tab, #v-tabs-messages-tab, #v-tabs-info-tab, #v-tabs-about-tab, #v-tabs-country-tab, #v-tabs-region-tab, #v-tabs-continent-tab, #v-tabs-province-tab, #v-tabs-bioData-tab, #v-tabs-company-tab {
+    font-size: 20px;
+    max-width: 200px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+#v-tabs-the1-tab, #v-tabs-the2-tab, #v-tabs-the3-tab{
+    font-size: 20px;
+    max-width: 200px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+#v-tabs-the1-tab:hover, #v-tabs-the2-tab:hover, #v-tabs-the3-tab:hover{
+    background-color:var(--docsTabsHover);
+}
+
+#v-tabs-home-tab:hover, #v-tabs-profile-tab:hover, #v-tabs-messages-tab:hover, #v-tabs-info-tab:hover, #v-tabs-about-tab:hover, #v-tabs-country-tab:hover, #v-tabs-region-tab:hover, #v-tabs-continent-tab:hover, #v-tabs-province-tab:hover, #v-tabs-bioData-tab:hover, #v-tabs-company-tab:hover {
+    background-color:var(--docsTabsHover);
+}
+
+#v-tabs-tab {
+    border-right: 2px solid #666666;
+    height: 100%;
+}
+
+.displayFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-center {
+    max-width: 350px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.displayFlexRightContent {
+    margin-left: 20px;
+}
+
+.sidetoggleinsidespanID {
+    font-size: 15px;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.sidetoggleinsideHeaderID {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.br3PX {
+    border-right: 3px solid #868686;
+}
+
+#IDLeftLowerTabsDiv {
+    overflow-y: auto;
+    height: 250px;
+}
+
+.IDImageMarginTop {
+    margin-top: 15px;
+}
+
+.IDProgressBarContainer {
+    height: 18px;
+    max-width: 220px;
+    border-radius: 25px;
+}
+
+.IDProgressBarSubContainer {
+    width: 25%;
+    border-radius: 4px;
+}
+
+.bg-darkgrey {
+    background-color: "#7d7787";
+}
+
+.bg-green {
+    background-color: #04d494;
+}
+
+.bg-greenShade {
+    background-color: #3ab0c4;
+}
+
+.bg-darkPink {
+    background-color: #fc077d;
+}
+
+.IDLeftLowerTradesTable {
+    font-size: 15px;
+    min-width: 250px;
+    overflow-y: auto;
+}
+
+.table-id-row-link {
+    letter-spacing: 2px;
+}
+
+.table-id-row-link:hover {
+    background-color: #04d494;
+    color: white;
+    border-radius: 10px;
+    height: fit-content;
+    transition: 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.link-style {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-style:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.spacemore {
+    height: 70px;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.container-half {
+    width: fit-content;
+    height: auto;
+    display: flex;
+}
+
+.btn-view-pool {
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    height: 45px;
+    line-height: 20px;
+}
+
+.btn-view-pool:hover {
+    background-color: #666666;
+    color: white;
+}
+
+.displayFlex {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.rightImageID {
+    margin-left: 2%;
+}
+
+.lastTabsHeadings {
+    margin-left: 3%;
+    margin-top: 8%;
+}
+
+.hfs {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+
+.idRightToggleBtn {
+    font-size: 20px;
+    border-radius: 3px;
+    width: 95px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.idRightToggleBtn:hover {
+    font-weight: bold;
+    background-color: #666666;
+    color: white;
+    transition: 0.3s cubic-bezier(1, 0, 0, 1);
+}
+
+.idRightToggleContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputID {
+    width: 70%;
+    font-size: 20px;
+}
+
+.inputID {
+    width: 100%;
+    font-size: 22px;
+}
+
+.center-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.btn-transparent {
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn-transparent:hover {
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.fee {
+    border-top: 2px solid #666666;
+    width: 100%;
+    border-bottom: 2px solid #666666;
+    font-size: 20px;
+    height: 50px;
+    line-height: 40px;
+}
+
+.sm-size {
+    font-size: 18px;
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.content-center-id {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-connect {
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+
+.btn-connect:hover {
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #666666;
+    color: white;
+}
+
+.btn-mint1 {
+    max-width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+
+.btn-mint1:hover {
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #666666;
+    color: white;
+}
+
+.modalTitle
+{
+    font-weight: bold;
+    letter-spacing: 4px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.modalSubTitle
+{
+    color: grey;
+    font-size: 20px;
+    letter-spacing: 3px;
+    background-color: var(--background-color);
+}
+
+.text-input-modal-down
+{
+    padding-top: 6px;
+    width: 160px;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 100%;
+    border-radius: 5px;
+    line-height: 30px;
+}
+
+.modalInputContainer
+{
+    border: 1px solid grey;
+    width: 50%;
+    border-radius: 5px;
+    display: flex;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.input_TEXT_MODAL
+{
+    width: 60%;
+    border: none;
+}
+
+.btn-mint-modal
+{
+    border: 2px solid grey;
+    width: 100px;
+    font-size: 18px;
+    height: 45px;
+    line-height: 10px;
+    color: rgb(165, 165, 165);
+}
+
+#b1pixels
+{
+     border: 1px solid grey;
+}
+
+.btn-mint2 {
+    margin-left: 15px;
+    max-width: 130px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+
+.btn-mint2:hover {
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #666666;
+    color: white;
+}
+
+
+
+.sloppage {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.sloppage-btn {
+    border: "1px solid #333333";
+    font-size: 15px;
+    height: 30px;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.sloppage-btn:hover {
+    background-color: #333333;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.mint-id-table-row {
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    min-height: 90px;
+}
+
+.uni {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.right-table-id {
+    overflow-y: auto;
+    height: 200px;
+    border-top: 2px solid #666666;
+    border-bottom: 2px solid #666666;
+}
+
+.idsidebar {
+    width: 100%;
+}
+
+.back-grey {
+    background-color: #666666;
+    color: white;
+}
+
+/* swap input container */
+
+.inputContainerID {
+    border: 1px solid grey;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    height: 42px;
+}
+
+@media all and (max-width:1203px) {
+    .idRightToggleBtn {
+        font-size: 17px;
+        width: fit-content;
+    }
+}
+
+@media all and (max-width:803px) {
+    .idRightToggleBtn {
+        font-size: 14px;
+        width: fit-content;
+    }
+}
+
+@media all and (max-width:769px) {
+    .btn-connect {
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width:760px) {
+    .idRightToggleBtn {
+        font-size: 20px;
+        width: fit-content;
+    }
+}
+
+@media all and (max-width:650px) {
+    .br3PX {
+        display: none;
+    }
+}
+
+@media all and (max-width:500px) {
+    .idsidebar {
+        width: 100%;
+    }
+    #v-tabs-home-tab, #v-tabs-profile-tab, #v-tabs-messages-tab, #v-tabs-info-tab {
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:450px) {
+    #v-tabs-home-tab, #v-tabs-profile-tab, #v-tabs-messages-tab, #v-tabs-info-tab {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .br3PX {
+        display: none;
+    }
+}
+
+@media all and (max-width:300px) {
+    .idRightToggleBtn {
+        font-size: 17px;
+        width: fit-content;
+    }
+}

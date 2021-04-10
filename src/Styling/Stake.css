@@ -1,0 +1,39 @@
+.liquidity-mining {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 1.5%;
+}
+
+.stake-container {
+    width: 52%;
+    margin: 0 auto;
+}
+
+.read-more-l-m {
+    color: #ffa90a;
+    text-decoration: underline;
+}
+
+.read-more-l-m:hover {
+    color: #17e79d;
+}
+
+@media all and (max-width:956px) {
+    .stake-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .liquidity-mining {
+        font-size: 18px;
+        padding-left: 10px;
+        letter-spacing: 1px;
+        margin-bottom: 1.5%;
+    }
+    legend{
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 3px;
+    }
+}

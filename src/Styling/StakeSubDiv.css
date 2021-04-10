@@ -1,0 +1,51 @@
+.stake-subcontainer-container {
+    margin-top: 10%;
+    border: 3px solid #666666;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.stake-subcontainer-container:hover {
+    border: 3px solid #00e79a;
+}
+
+.ssdImages {
+    width: 30px;
+}
+
+.stake-sub-index-head {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.stake-sub-index-sub {
+    font-weight: bold;
+}
+
+.stake-btn {
+    font-size: 18px;
+    color: var(--text-color);;
+    border: 1px solid grey;
+}
+
+.stake-btn:hover {
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s linear;
+    background-color: var(--expandBtnHover);
+    border: 1px solid grey;
+    color: var(--text-color);
+}
+
+.ssd-apy {
+    color: #07e79d;
+    font-weight: bolder;
+    padding-left: 5%;
+}
+
+@media all and (max-width:956px) {
+    .stake-sub-index-head {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,37 @@
+#textInputUnique
+{
+    margin-top: -20px;
+}
+
+.text-input-container
+{
+    border: 1px solid grey;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    height: 42px;
+    margin: 0 auto;
+}
+
+.txt-container-right-input
+{
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.input_TEXT_TEXT_COMPONENT
+{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+}
+
+.input_TEXT_TEXT_COMPONENT:focus
+{
+    width: 100%;
+    border: 0px solid black;
+}

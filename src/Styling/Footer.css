@@ -1,0 +1,102 @@
+#footer {
+    position:relative;
+    bottom:0;
+    border-top: 3px solid rgb(90, 92, 90);
+    min-height: 80px;
+    max-height: 150px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+#copyright {
+    line-height: 80px;
+    font-weight: bold;
+}
+
+#footerIcons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    line-height: 60px;
+    margin-left: 40%;
+}
+
+#footerIcons li a {
+    margin-left: 30px;
+    border: 1px solid rgb(56, 56, 56);
+}
+
+#footerIcons li a i {
+    font-size: 30px;
+}
+
+#footerIcons li a:hover {
+    border: 1px solid #09cccc;
+}
+
+@media all and (max-width:1300px)
+{
+    #footerIcons {
+        margin-left: 30%;
+    }
+}
+@media all and (max-width:1200px)
+{
+    #footerIcons{
+        margin-left: 20%;
+    }
+}
+@media all and (max-width:992px)
+{
+    #footerIcons{
+        margin-left: 15%;   
+    }
+    #footerIcons li a {
+        margin-left: 10px;
+    }
+}
+@media all and (max-width:768px)
+{
+    #footerIcons{
+        margin-left: -25%;   
+    }
+    #copyright {
+        line-height: 50px;
+    }
+}
+@media all and (max-width:680px)
+{
+    #footerIcons{
+        margin-left: 0%;   
+    }
+    #copyright {
+     margin-left: 10%;
+    }
+}
+@media all and (max-width:380px)
+{
+    #copyright {
+     margin-left: 2%;
+    }
+}
+@media all and (max-width:338px)
+{
+    #copyright {
+        line-height: 30px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    #footerIcons{
+        margin-left: -5%;   
+    }
+}
+/* @media all and (max-width:305px)
+{
+    #copyright {
+        line-height: 30px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+} */

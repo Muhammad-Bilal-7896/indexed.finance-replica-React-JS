@@ -1,0 +1,98 @@
+.balanceNDX {
+    border: 3px solid #666666;
+    border-radius: 10px;
+    min-height: 330px;
+}
+
+.tvchart {
+    border: 3px solid #666666;
+    border-radius: 10px;
+    min-height: 330px;
+}
+
+.g-head-top {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 3%;
+    letter-spacing: 1px;
+}
+
+.g-head-below {
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3%;
+    letter-spacing: 1px;
+}
+.g
+{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15%;
+    letter-spacing: 5px;
+}
+.text-green
+{
+    color: #5deeee;
+}
+
+.g-co
+{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    margin-top: 5%;
+    line-height: 23px;
+    margin-bottom: 5%;
+}
+
+.InitializebtnGovernance
+{
+    border: 1px solid rgb(77, 77, 77);
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    border-radius: none;
+    color: var(--text-color);
+    width: 180px;
+    margin-bottom: 5%;
+}
+
+.InitializebtnGovernance:hover
+{
+    font-weight: bold;
+    background-color: var(--expandBtnHover);
+    border: 1px solid grey;
+    color:var(--text-color);
+    border-radius: 5px;
+}
+
+.delegate_input
+{
+    font-size: 20px;
+}
+
+.InitializebtnGovernanceDelegate
+{
+    border: 1px solid rgb(77, 77, 77);
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: none;
+    color: var(--text-color);
+    width: 180px;
+    margin-bottom: 5%;
+}
+.InitializebtnGovernanceDelegate:hover
+{
+    font-weight: bold;
+    background-color: var(--expandBtnHover);
+    border: 1px solid grey;
+    color:var(--text-color);
+    border-radius: 5px;
+}

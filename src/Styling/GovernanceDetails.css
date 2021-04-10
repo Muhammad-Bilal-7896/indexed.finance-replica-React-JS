@@ -1,0 +1,287 @@
+/* left upper col */
+
+.gdimglogo {
+    border: 4px solid #666666;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.btn-active-gd {
+    width: 120px;
+    font-size: 18px;
+    height: 30px;
+    line-height: 5px;
+    color: white;
+}
+
+.blue {
+    color: blue;
+}
+
+.gdhead {
+    color: var(--text-color);
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.gdProgressBarDiv {
+    min-height: 160px;
+    border-top: 2px solid #666666;
+}
+
+/* For upper progress bar */
+
+.progressUpperOutsideGD {
+    height: 18px;
+    border-radius: 15px;
+    width: auto;
+    margin-top: 14px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.progressUpperInsideGD {
+    width: 27%;
+    background-color: #00e79a;
+    border-radius: 5px;
+}
+
+/* For Upper progress bar */
+
+/* For lower progress bar */
+
+.progressLowerOutsideGD {
+    height: 18px;
+    border-radius: 15px;
+    width: auto;
+    margin-top: 14px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.progressLowerInsideGD {
+    width: 78%;
+    background-color: #f44336;
+    border-radius: 5px;
+}
+
+/* For Lower progress bar */
+
+.for-gd {
+    color: var(--text-color);
+    font-size: 20px;
+    padding-top: 8px;
+    margin-left: 20px;
+}
+
+.value-gd {
+    padding-top: 8px;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.bg-white-gd {
+    background-color: white;
+    border-bottom: none;
+    width: 100%;
+}
+
+.bg-white-gd:hover {
+    background-color: white;
+}
+
+/* left upper col */
+
+/* left lower div */
+
+.left-top-link-gd-div {
+    border-bottom: 3px solid #666666;
+    min-height: 100px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    word-spacing: 3px;
+}
+
+.left-top-link-gd {
+    text-decoration: underline;
+    color: black;
+}
+
+#some {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.some {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    line-height: 23px;
+}
+
+.left-top-link-gd:hover {
+    text-decoration: underline;
+    color: #00e79a;
+}
+
+.gd-left-details {
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+
+.div-lower-left-details-gd {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    word-spacing: 3px;
+}
+
+.summary-gd {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.gd-ullistHeading {
+    text-align: center;
+    font-weight: 900;
+}
+
+.radio-label {
+    color: var(--text-color);
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: 10%;
+    letter-spacing: 1px;
+}
+
+#radioNoLabel1 {
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+#radioNoLabel2 {
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.expandbtnHome {
+    font-weight: normal;
+    border: 1px solid rgb(77, 77, 77);
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    border-radius: none;
+}
+
+.expandbtnHome:hover {
+    font-weight: bold;
+    background-color: rgb(201, 201, 201);
+    border: 1px solid grey;
+    color: black;
+    border-radius: 5px;
+}
+
+.votebtnGD {
+    font-weight: normal;
+    border: 1px solid var(--text-color);
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    border-radius: none;
+    width: 100px;
+    position: relative;
+    margin-left: 65%;
+    color: var(--text-color);
+}
+
+.votebtnGD:hover {
+    font-weight: bold;
+    background-color: var(--text-color);
+    border: 1px solid grey;
+    color: var(--background-color);;
+    border-radius: 5px;
+}
+
+.tr-votes-table
+{
+    background-color: white;
+    border: none;
+}
+
+.tr-votes-table:hover
+{
+    background-color: rgb(214, 214, 214);
+    overflow-x: auto;
+}
+.table-w100
+{
+    width: 100%;
+}
+.gd-righttable-div
+{
+    overflow-y: auto;
+    height: 250px;
+}
+.votes-gd-img
+{
+    margin-left: 50px;
+    /* margin-right: 150px; */
+}
+
+
+/* left lower div */
+
+/* @media all and(max-width:1200px) {
+    .progressUpperOutsideGD {
+        height: 18px;
+        border-radius: 15px;
+
+        
+        width: 50px;
+        margin-left: 15%;
+        margin-right: 100px;
+    }
+    
+  
+    .progressLowerOutsideGD {
+        height: 18px;
+        border-radius: 15px;
+
+        
+        width: 50px;
+        margin-left: 15%;
+        margin-right: 100px;
+    }
+} */
+@media all and (max-width:1200px)
+{
+    .votebtnGD 
+    {
+        margin-left: 20%;
+    }
+}
+@media all and (max-width:768px)
+{
+    .votebtnGD 
+    {
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+}

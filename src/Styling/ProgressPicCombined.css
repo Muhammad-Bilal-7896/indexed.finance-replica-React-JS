@@ -1,0 +1,27 @@
+.containerProgressBarsID
+{
+    width: 400px;
+    margin-left: 10px;
+}
+.containerProgressBarsTopTxt
+{
+    letter-spacing: 1px;
+}
+
+.IDProgressBarContainer2 {
+    height: 18px;
+    max-width: 300px;
+    border-radius: 25px;
+}
+.sidetoggleinsidespanID {
+    font-size: 15px;
+    color: #666666;
+    margin-top: 10px;
+}
+.containerProgressBarsBottomTxt
+{
+    font-size: 15px;
+    color: #666666;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}

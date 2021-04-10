@@ -1,0 +1,35 @@
+.p-head-top {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.p-head-below {
+    font-weight: bolder;
+    color: #333333;
+}
+
+.portfolio_value {
+    border: 3px solid #666666;
+    border-radius: 10px;
+    min-height: 220px;
+    width: 90%;
+}
+.p_total_ndx
+{
+    border: 3px solid #666666;
+    border-radius: 10px;
+    min-height: 220px;
+}
+.p-head-top-below
+{
+    font-size: 20px;
+}
+.potfolio-progress
+{
+    padding-top: 10px;
+}
+.UNIV2
+{
+    font-size: 22px;
+    letter-spacing: 3px;
+}

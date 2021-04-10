@@ -1,0 +1,27 @@
+.text-input-container-sub
+{
+    border: 1px solid grey;
+    width: 90%;
+    margin-top: 4%;
+    border-radius: 5px;
+    display: flex;
+    height: 42px;
+    margin: 0 auto;
+}
+
+.input_TEXT_TEXT_COMPONENT_SUB
+{
+    
+    width: 100%;
+    border: none;
+    font-size: 20px;
+}
+.txt-container-right-input-sub
+{
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 2%;
+}

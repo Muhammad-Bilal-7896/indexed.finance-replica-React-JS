@@ -1,0 +1,49 @@
+fieldset {
+    width: 100%;
+    border: 3px solid #666666;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+legend {
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-left: 40px;
+}
+
+tr:hover {
+    transition: 0.1s linear;
+    cursor: pointer;
+    background-color: var(--indexPoolsTableHover);
+}
+.trrow{
+    color: var(--text-color);
+}
+.trrow:hover {
+    transition: 0.1s linear;
+    background-color:var(--tableRowBackColor);
+}
+
+.table {
+    font-size: 18px;
+    font-weight: bold;
+    overflow-x: auto;
+    overflow-y: auto;
+    min-width: 1000px;
+    /* height: 500px; */
+}
+
+table tr {
+    border-bottom: 1px solid rgb(59, 59, 59);
+    font-weight: bold;
+}
+
+.table tr th {
+    font-weight: bold;
+}
+
+.INTR
+{
+    color: inherit;
+}
+

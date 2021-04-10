@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Changa', sans-serif;
+}
+
+/* For the marquee element */
+
+.marquee {
+    width: 100%;
+    line-height: 40px;
+    background: var(--background-color);
+    color: var(--text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-top: 1px solid #666666;
+    border-bottom: 2px solid #666666;
+    height: 40px;
+}
+
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 30s linear infinite;
+    font-size: 25px;
+    letter-spacing: 3px;
+    animation-direction: reverse;
+    font-weight: normal;
+    word-spacing: 15px;
+}
+
+.marquee p a {
+    color: inherit;
+    word-spacing: 15px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.marquee p a:hover {
+    color: #40e79a;
+    text-decoration: none;
+}
+
+.marquee p:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+/* For the marquee element */
+
+.parent-block {
+    width: 100%;
+    border: 3px solid rgb(58, 57, 57);
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 250px;
+    display: flex;
+}
+
+.left-block {
+    /* border: 5px solid blue; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-block {
+    border: 4px solid rgb(71, 71, 71);
+    width: 40%;
+    border-radius: 150px 5px 5px 150px;
+    display: flex;
+}
+
+/* For the right block */
+
+.right-upper-block {
+    /* border: 10px solid rgb(11, 228, 11); */
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.right-lower-block {
+    /* border: 10px solid rgb(0, 18, 100); */
+    height: 50%;
+    width: 100%;
+}
+
+/* For the right block */
+
+/* For the left block */
+
+.right-block-inside-left {
+    /* border: 1px solid rgb(233, 0, 0); */
+    width: 50%;
+}
+
+.right-block-inside-right {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    padding-right: 1%;
+}
+
+.right-upper-inside-left {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 100px;
+}
+
+.right-upper-inside-right-inside {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: var(--text-color);
+    /* word-spacing: 4px; */
+}
+
+.right-upper-inside-right-inside-lower {
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--text-color);
+    letter-spacing: 6px;
+}
+
+/* For the left block */
+
+.container-own {
+    width: 95%;
+    margin: auto;
+}
+
+/* Right List */
+
+.ullistright-parent {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: -8%;
+}
+
+#pieChartStyle {
+    margin-top: 10%;
+    padding-left: 6%;
+}
+
+.ullistright-parent-child {
+    font-size: 16px;
+}
+
+/* Right List */
+
+.purple {
+    color: purple;
+}
+
+.CC10TextStyle {
+    margin-left: 100px;
+}
+
+.green
+{
+    color: #40e79a;
+}
+
+.darkpink
+{
+    color: #ff2a76;
+}
+
+.ullistright-parent-child
+{
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.grey
+{
+    color: grey;
+}
+
+.expandbtnHomes
+{
+    font-weight: normal;
+    border: 1px solid rgb(77, 77, 77);
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    border-radius: none;
+    color: var(--text-color);
+}
+
+.expandbtnHomes:hover
+{
+    font-weight: bold;
+    background-color: var(--expandBtnHover);
+    border: 1px solid grey;
+    color:var(--text-color);
+    border-radius: 5px;
+}
+
+
+@media all and (max-width:1230px) {
+    /* Right List */
+    .ullistright-parent {
+        display: flex;
+        list-style: none;
+        font-size: 16px;
+        margin-top: 2%;
+        margin-left: -10%;
+    }
+    /* Right List */
+}
+
+@media all and (max-width:1140px) {
+    /* Right List */
+    .ullistright-parent {
+        display: flex;
+        list-style: none;
+        font-size: 13px;
+        margin-top: 2%;
+        margin-left: -20%;
+    }
+    /* Right List */
+}
+
+@media all and (max-width:930px) {
+    /* Right List */
+    .ullistright-parent {
+        display: flex;
+        list-style: none;
+        font-size: 13px;
+        margin-top: 1%;
+        margin-left: -25%;
+    }
+    .parent-block {
+        height: auto;
+    }
+    /* Right List */
+}
+
+@media all and (max-width:900px) {
+    /* Right List */
+    .ullistright-parent {
+        display: flex;
+        list-style: none;
+        font-size: 13px;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    #pieChartStyle {
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    .right-block {
+        display: block;
+    }
+    /* Right List */
+}
+
+@media all and (max-width:615px) {
+    /* Right List */
+    .right-block {
+        display: none;
+    }
+    .left-block {
+        width: 100%;
+    }
+    /* Right List */
+}
+
+@media all and (max-width:415px) {
+    /* Right List */
+    .right-upper-inside-right-inside {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    /* Right List */
+}
+
+@media all and (max-width:320px) {
+    /* Right List */
+    .right-upper-inside-right-inside {
+        font-size: 27px;
+        /* word-spacing: 4px; */
+    }
+    .right-upper-inside-right-inside-lower {
+        font-size: 23px;
+    }
+    /* Right List */
+}
+
+@media all and (max-width:314px) {
+    /* Right List */
+    .right-upper-inside-right-inside {
+        font-size: 25px;
+        /* word-spacing: 4px; */
+    }
+    /* Right List */
+    .right-upper-inside-right-inside-lower {
+        font-size: 20px;
+    }
+    /* Right List */
+}
